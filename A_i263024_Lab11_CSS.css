@@ -1,0 +1,44 @@
+body{
+  padding: 25px;
+  background-color: turquoise;
+}
+.title {
+	color: #5C6AC4;
+}
+p{
+  size: 10px;
+  font-size: large;
+  align-items: safe;
+}
+h1{
+  color:brown;
+}
+h2{
+  color:black;
+}
+.Cook{
+  display: inline-flex;
+}
+body { font-size: small; line-height: 1.4; margin: 20px; }
+  .nutrition-label {
+    border: 1px solid black;
+    width: 280px;
+    padding: 0.5rem;
+    font-family: Arial, sans-serif;
+  }
+  .nutrition-label h1 { margin: 0 0 0.25rem 0; font-weight: bold; font-size: 1.5rem; }
+  .nutrition-label p { margin: 0; }
+  .nutrition-label table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .nutrition-label th, .nutrition-label td {
+    border-top: 1px solid black;
+    padding: 0.25rem 0;
+    text-align: left;
+  }
+  .nutrition-label td:last-child { text-align: right; }
+  .nutrition-label .thick-row th, .nutrition-label .thick-row td {
+    border-top-width: 5px;
+  }
+  .nutrition-label .small-info { font-size: 0.7rem; }
